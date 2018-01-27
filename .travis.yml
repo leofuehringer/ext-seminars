@@ -42,6 +42,10 @@ script:
   composer ci:php:lint;
 - >
   echo;
+  echo "Linting all TypoScript files";
+  composer ci:ts:lint;
+- >
+  echo;
   echo "Running the unit tests";
   composer ci:tests:unit;
 - >
