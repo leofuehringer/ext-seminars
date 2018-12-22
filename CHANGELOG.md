@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - changes for multidomainsetup: TCA, Flexforms, pageTS, documentation
 
 ### Changed
+- Use an img instead of background image for the image in the single view (#187)
 
 ### Deprecated
 
